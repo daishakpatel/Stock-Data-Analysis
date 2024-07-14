@@ -77,9 +77,3 @@ The Stock Analysis Project is a comprehensive Windows Form Application designed 
 ## Contribution
 Feel free to fork the repository, make improvements, and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-This project is licensed under the MIT License.
-
----
-
-This README provides a comprehensive guide to all three parts of the Stock Analysis Project, making it clear and structured for users or contributors.
