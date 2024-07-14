@@ -1,0 +1,166 @@
+  CIS_4930_001_Spring_2024_Demo.Form_StockPicker.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CIS 4930 Project 3, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Candlestick: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    UInt64 Volume 'get set' : 
+    Double Close 'get set' : 
+    Double Low 'get set' : 
+    Double High 'get set' : 
+    Double Open 'get set' : 
+    System.DateTime Date 'get set' : 
+  Methods:
+    get_Date(): PrivateScope, Public, HideBySig, SpecialName
+    set_Date(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_Open(): PrivateScope, Public, HideBySig, SpecialName
+    set_Open(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_High(): PrivateScope, Public, HideBySig, SpecialName
+    set_High(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Low(): PrivateScope, Public, HideBySig, SpecialName
+    set_Low(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Close(): PrivateScope, Public, HideBySig, SpecialName
+    set_Close(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Volume(): PrivateScope, Public, HideBySig, SpecialName
+    set_Volume(UInt64): PrivateScope, Public, HideBySig, SpecialName
+Class SmartCandlestick: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Candlestick
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Candlestick): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.Dictionary`2[System.String,System.Boolean] patterns 'get set' : 
+    Double lowerTail 'get set' : 
+    Double upperTail 'get set' : 
+    Double bottomPrice 'get set' : 
+    Double topPrice 'get set' : 
+    Double bodyRange 'get set' : 
+    Double Range 'get set' : 
+  Methods:
+    get_Range(): PrivateScope, Public, HideBySig, SpecialName
+    set_Range(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_bodyRange(): PrivateScope, Public, HideBySig, SpecialName
+    set_bodyRange(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_topPrice(): PrivateScope, Public, HideBySig, SpecialName
+    set_topPrice(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_bottomPrice(): PrivateScope, Public, HideBySig, SpecialName
+    set_bottomPrice(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_upperTail(): PrivateScope, Public, HideBySig, SpecialName
+    set_upperTail(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_lowerTail(): PrivateScope, Public, HideBySig, SpecialName
+    set_lowerTail(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_patterns(): PrivateScope, Public, HideBySig, SpecialName
+    set_patterns(Dictionary`2): PrivateScope, Public, HideBySig, SpecialName
+    ComputeExtraProperties(): PrivateScope, Public, HideBySig
+Class Recognizer: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 patternLength 'get set' : 
+    System.String patternName 'get set' : 
+  Methods:
+    get_patternName(): PrivateScope, Public, HideBySig, SpecialName
+    set_patternName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_patternLength(): PrivateScope, Public, HideBySig, SpecialName
+    set_patternLength(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RecognizeAll(List`1): PrivateScope, Public, HideBySig
+Class CppCLRWinFormsProject.Form_StockPicker: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ReadCandleStickDataFromFile(): PrivateScope, Public, HideBySig
+    ReadCandleStickDataFromFile(String): PrivateScope, Public, HideBySig
+    filterCandlesticks(): PrivateScope, Public, HideBySig
+    filterCandlesticks(List`1): PrivateScope, Public, HideBySig
+    normalizeChart(): PrivateScope, Public, HideBySig
+    normalizeChart(BindingList`1): PrivateScope, Public, HideBySig
+    displayChart(): PrivateScope, Public, HideBySig
+    displayChart(BindingList`1): PrivateScope, Public, HideBySig
+    initializeComboBox(BindingList`1): PrivateScope, Public, HideBySig
+    comboBox_Patterns_SelectedIndexChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    initializeRecognizers(): PrivateScope, Public, HideBySig
+Class Recognizer_Bullish: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_Bearish: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_Neutral: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_Marubozu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_Hammer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_Doji: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_DragonflyDoji: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_GravestoneDoji: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_BullishEngulfing: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_BearishEngulfing: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_BullishHarami: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_BearishHarami: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_Peak: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig
+Class Recognizer_Valley: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Recognizer
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Recognize(List`1, Int32): PrivateScope, Public, Virtual, HideBySig

@@ -1,0 +1,54 @@
+  CIS_4930_001_Spring_2024_Demo.Form_StockPicker.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CIS 4930 001 Spring 2024 Demo, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Candlestick: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    UInt64 Volume 'get set' : 
+    Double Close 'get set' : 
+    Double Low 'get set' : 
+    Double High 'get set' : 
+    Double Open 'get set' : 
+    System.DateTime Date 'get set' : 
+  Methods:
+    get_Date(): PrivateScope, Public, HideBySig, SpecialName
+    set_Date(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_Open(): PrivateScope, Public, HideBySig, SpecialName
+    set_Open(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_High(): PrivateScope, Public, HideBySig, SpecialName
+    set_High(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Low(): PrivateScope, Public, HideBySig, SpecialName
+    set_Low(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Close(): PrivateScope, Public, HideBySig, SpecialName
+    set_Close(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Volume(): PrivateScope, Public, HideBySig, SpecialName
+    set_Volume(UInt64): PrivateScope, Public, HideBySig, SpecialName
+Class CppCLRWinFormsProject.Form_StockPicker: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ReadCandleStickDataFromFile(): PrivateScope, Public, HideBySig
+    ReadCandleStickDataFromFile(String): PrivateScope, Public, HideBySig
+    filterCandlesticks(): PrivateScope, Public, HideBySig
+    filterCandlesticks(List`1): PrivateScope, Public, HideBySig
+    displayCandleSticks(): PrivateScope, Public, HideBySig
+    displayCandleSticks(BindingList`1): PrivateScope, Public, HideBySig
+    normalizeChart(): PrivateScope, Public, HideBySig
+    normalizeChart(BindingList`1): PrivateScope, Public, HideBySig
+    displayChart(): PrivateScope, Public, HideBySig
+    displayChart(BindingList`1): PrivateScope, Public, HideBySig

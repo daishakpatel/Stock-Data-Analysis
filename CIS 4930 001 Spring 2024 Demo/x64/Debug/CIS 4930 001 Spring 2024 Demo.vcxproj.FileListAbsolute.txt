@@ -1,0 +1,9 @@
+D:\USF\Advanced OOP\CIS 4930 001 Spring 2024 Demo\CIS 4930 001 Spring 2024 Demo\x64\Debug\CIS 4930 001 Spring 2024 Demo.vcxproj.AssemblyReference.cache
+D:\USF\Advanced OOP\CIS 4930 001 Spring 2024 Demo\CIS 4930 001 Spring 2024 Demo\x64\Debug\CIS 4930 001 Spring 2024 Demo.vcxproj.GenerateResource.cache
+D:\USF\Advanced OOP\CIS 4930 001 Spring 2024 Demo\CIS 4930 001 Spring 2024 Demo\x64\Debug\CIS_4930_001_Spring_2024_Demo.Form_StockPicker.resources
+D:\USF\Project1_RajasBhate\CIS 4930 001 Spring 2024 Demo\CIS 4930 001 Spring 2024 Demo\x64\Debug\CIS 4930 001 Spring 2024 Demo.vcxproj.AssemblyReference.cache
+D:\USF\Project1_RajasBhate\CIS 4930 001 Spring 2024 Demo\CIS 4930 001 Spring 2024 Demo\x64\Debug\CIS_4930_001_Spring_2024_Demo.Form_StockPicker.resources
+D:\USF\Project1_RajasBhate\CIS 4930 001 Spring 2024 Demo\CIS 4930 001 Spring 2024 Demo\x64\Debug\CIS 4930 001 Spring 2024 Demo.vcxproj.GenerateResource.cache
+C:\Users\rkpat\Desktop\Project3_RajasBhate\CIS 4930 001 Spring 2024 Demo\CIS 4930 001 Spring 2024 Demo\x64\Debug\CIS 4930 001 Spring 2024 Demo.vcxproj.AssemblyReference.cache
+C:\Users\rkpat\Desktop\Project3_RajasBhate\CIS 4930 001 Spring 2024 Demo\CIS 4930 001 Spring 2024 Demo\x64\Debug\CIS_4930_001_Spring_2024_Demo.Form_StockPicker.resources
+C:\Users\rkpat\Desktop\Project3_RajasBhate\CIS 4930 001 Spring 2024 Demo\CIS 4930 001 Spring 2024 Demo\x64\Debug\CIS 4930 001 Spring 2024 Demo.vcxproj.GenerateResource.cache
